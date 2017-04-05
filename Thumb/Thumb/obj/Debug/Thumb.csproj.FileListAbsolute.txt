@@ -1,0 +1,16 @@
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\obj\Debug\Thumb.Form1.resources
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\obj\Debug\Thumb.Properties.Resources.resources
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\obj\Debug\Thumb.csproj.GenerateResource.Cache
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\obj\Debug\Thumb.exe
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\obj\Debug\Thumb.pdb
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\bin\Debug\Thumb.exe.config
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\obj\Debug\Thumb.exe.manifest
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\bin\Debug\Thumb.exe.manifest
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\bin\Debug\Thumb.application
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\bin\Debug\Thumb.exe
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\bin\Debug\Thumb.pdb
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\bin\Debug\MySql.Data.dll
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\bin\Debug\ScanAPIHelper.dll
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\bin\Debug\MySql.Data.xml
+C:\Users\kent\Documents\Visual Studio 2015\Projects\Thumb\Thumb\obj\Debug\Thumb.application
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\Debug\ScanAPIDemo.vshost.exe

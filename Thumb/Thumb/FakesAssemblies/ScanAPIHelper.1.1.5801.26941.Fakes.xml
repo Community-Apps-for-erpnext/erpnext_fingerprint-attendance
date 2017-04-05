@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ScanAPIHelper.1.1.5801.26941.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ScanAPIHelper.Fakes.ShimDevice">
+            <summary>Shim type of ScanAPIHelper.Device</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimDevice.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimDevice.#ctor(ScanAPIHelper.Device)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimDevice.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.CheckDispose">
+            <summary>Sets the shim of Device.CheckDispose()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.Close">
+            <summary>Sets the shim of Device.Close()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.DetectFakeFingerGet">
+            <summary>Sets the shim of Device.get_DetectFakeFinger()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.DetectFakeFingerSetBoolean">
+            <summary>Sets the shim of Device.set_DetectFakeFinger(Boolean value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.Dispose">
+            <summary>Sets the shim of Device.Dispose()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of Device.Dispose(Boolean )</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.FastFingerDetectMethodGet">
+            <summary>Sets the shim of Device.get_FastFingerDetectMethod()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.FastFingerDetectMethodSetBoolean">
+            <summary>Sets the shim of Device.set_FastFingerDetectMethod(Boolean value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.GetDarkImage">
+            <summary>Sets the shim of Device.GetDarkImage()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.GetFrame">
+            <summary>Sets the shim of Device.GetFrame()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.GetImageInt32">
+            <summary>Sets the shim of Device.GetImage(Int32 dose)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.GreenDiodesStatusGet">
+            <summary>Sets the shim of Device.get_GreenDiodesStatus()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.ImageSizeGet">
+            <summary>Sets the shim of Device.get_ImageSize()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.InformationGet">
+            <summary>Sets the shim of Device.get_Information()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.InvertImageGet">
+            <summary>Sets the shim of Device.get_InvertImage()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.InvertImageSetBoolean">
+            <summary>Sets the shim of Device.set_InvertImage(Boolean value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.IsFingerPresentGet">
+            <summary>Sets the shim of Device.get_IsFingerPresent()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.LastErrorCodeGet">
+            <summary>Sets the shim of Device.get_LastErrorCode()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.MemorySizeGet">
+            <summary>Sets the shim of Device.get_MemorySize()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.Open">
+            <summary>Sets the shim of Device.Open()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.OpenInt32">
+            <summary>Sets the shim of Device.Open(Int32 interfaceNumber)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.ReceiveLongImageGet">
+            <summary>Sets the shim of Device.get_ReceiveLongImage()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.ReceiveLongImageSetBoolean">
+            <summary>Sets the shim of Device.set_ReceiveLongImage(Boolean value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.RedDiodesStatusGet">
+            <summary>Sets the shim of Device.get_RedDiodesStatus()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.RestoreBytes">
+            <summary>Sets the shim of Device.RestoreBytes()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.RestoreMemoryInt32Int32">
+            <summary>Sets the shim of Device.RestoreMemory(Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.RestoreSecretBytesByteArray">
+            <summary>Sets the shim of Device.RestoreSecretBytes(Byte[] code)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.SaveBytesByteArray">
+            <summary>Sets the shim of Device.SaveBytes(Byte[] buffer)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.SaveMemoryByteArrayInt32Int32">
+            <summary>Sets the shim of Device.SaveMemory(Byte[] data, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.SaveSecretBytesByteArrayByteArray">
+            <summary>Sets the shim of Device.SaveSecretBytes(Byte[] code, Byte[] buffer)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.SerialNumberGet">
+            <summary>Sets the shim of Device.get_SerialNumber()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.SetAuthorizationCodeByteArray">
+            <summary>Sets the shim of Device.SetAuthorizationCode(Byte[] buffer)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.SetDiodesStatusDiodesStatusDiodesStatus">
+            <summary>Sets the shim of Device.SetDiodesStatus(DiodesStatus green, DiodesStatus red)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.VersionInformationGet">
+            <summary>Sets the shim of Device.get_VersionInformation()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.WSQ_FromRawImageByteArrayInt32Int32Single">
+            <summary>Sets the shim of Device.WSQ_FromRawImage(Byte[] rawImage, Int32 nWidth, Int32 nHeight, Single fBitrate)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.WSQ_GetImageParametersByteArray">
+            <summary>Sets the shim of Device.WSQ_GetImageParameters(Byte[] wsqImage)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances.WSQ_ToRAWImageByteArrayInt32">
+            <summary>Sets the shim of Device.WSQ_ToRAWImage(Byte[] wsqImage, Int32 rawSize)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances._Device">
+            <summary>Sets the shim of Device.!Device()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.AllInstances._Device01">
+            <summary>Sets the shim of Device.~Device()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.BaseInterfaceGet">
+            <summary>Sets the shim of Device.get_BaseInterface()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.BaseInterfaceSetInt32">
+            <summary>Sets the shim of Device.set_BaseInterface(Int32 value)</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimDevice.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimDevice.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimDevice.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.CheckDispose">
+            <summary>Sets the shim of Device.CheckDispose()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.Close">
+            <summary>Sets the shim of Device.Close()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.Constructor">
+            <summary>Sets the shim of Device.Device()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.DetectFakeFingerGet">
+            <summary>Sets the shim of Device.get_DetectFakeFinger()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.DetectFakeFingerSetBoolean">
+            <summary>Sets the shim of Device.set_DetectFakeFinger(Boolean value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.Dispose">
+            <summary>Sets the shim of Device.Dispose()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.DisposeBoolean">
+            <summary>Sets the shim of Device.Dispose(Boolean )</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.FastFingerDetectMethodGet">
+            <summary>Sets the shim of Device.get_FastFingerDetectMethod()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.FastFingerDetectMethodSetBoolean">
+            <summary>Sets the shim of Device.set_FastFingerDetectMethod(Boolean value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.GetDarkImage">
+            <summary>Sets the shim of Device.GetDarkImage()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.GetFrame">
+            <summary>Sets the shim of Device.GetFrame()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.GetImageInt32">
+            <summary>Sets the shim of Device.GetImage(Int32 dose)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.GetInterfaces">
+            <summary>Sets the shim of Device.GetInterfaces()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.GreenDiodesStatusGet">
+            <summary>Sets the shim of Device.get_GreenDiodesStatus()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.ImageSizeGet">
+            <summary>Sets the shim of Device.get_ImageSize()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.InformationGet">
+            <summary>Sets the shim of Device.get_Information()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.InvertImageGet">
+            <summary>Sets the shim of Device.get_InvertImage()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.InvertImageSetBoolean">
+            <summary>Sets the shim of Device.set_InvertImage(Boolean value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.IsFingerPresentGet">
+            <summary>Sets the shim of Device.get_IsFingerPresent()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.LastErrorCodeGet">
+            <summary>Sets the shim of Device.get_LastErrorCode()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.MemorySizeGet">
+            <summary>Sets the shim of Device.get_MemorySize()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.Open">
+            <summary>Sets the shim of Device.Open()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.OpenInt32">
+            <summary>Sets the shim of Device.Open(Int32 interfaceNumber)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.ReceiveLongImageGet">
+            <summary>Sets the shim of Device.get_ReceiveLongImage()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.ReceiveLongImageSetBoolean">
+            <summary>Sets the shim of Device.set_ReceiveLongImage(Boolean value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.RedDiodesStatusGet">
+            <summary>Sets the shim of Device.get_RedDiodesStatus()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.RestoreBytes">
+            <summary>Sets the shim of Device.RestoreBytes()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.RestoreMemoryInt32Int32">
+            <summary>Sets the shim of Device.RestoreMemory(Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.RestoreSecretBytesByteArray">
+            <summary>Sets the shim of Device.RestoreSecretBytes(Byte[] code)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.SaveBytesByteArray">
+            <summary>Sets the shim of Device.SaveBytes(Byte[] buffer)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.SaveMemoryByteArrayInt32Int32">
+            <summary>Sets the shim of Device.SaveMemory(Byte[] data, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.SaveSecretBytesByteArrayByteArray">
+            <summary>Sets the shim of Device.SaveSecretBytes(Byte[] code, Byte[] buffer)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.SerialNumberGet">
+            <summary>Sets the shim of Device.get_SerialNumber()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.SetAuthorizationCodeByteArray">
+            <summary>Sets the shim of Device.SetAuthorizationCode(Byte[] buffer)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.SetDiodesStatusDiodesStatusDiodesStatus">
+            <summary>Sets the shim of Device.SetDiodesStatus(DiodesStatus green, DiodesStatus red)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.SetLoggingFacilityLevelLogMaskLogLevelString">
+            <summary>Sets the shim of Device.SetLoggingFacilityLevel(LogMask mask, LogLevel level, String fileName)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.VersionInformationGet">
+            <summary>Sets the shim of Device.get_VersionInformation()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.WSQ_FromRawImageByteArrayInt32Int32Single">
+            <summary>Sets the shim of Device.WSQ_FromRawImage(Byte[] rawImage, Int32 nWidth, Int32 nHeight, Single fBitrate)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.WSQ_GetImageParametersByteArray">
+            <summary>Sets the shim of Device.WSQ_GetImageParameters(Byte[] wsqImage)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice.WSQ_ToRAWImageByteArrayInt32">
+            <summary>Sets the shim of Device.WSQ_ToRAWImage(Byte[] wsqImage, Int32 rawSize)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice._Device">
+            <summary>Sets the shim of Device.!Device()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDevice._Device01">
+            <summary>Sets the shim of Device.~Device()</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimDeviceInfo">
+            <summary>Shim type of ScanAPIHelper.DeviceInfo</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimDeviceInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimDeviceInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimDeviceInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimDeviceInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDeviceInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimDeviceInfo.StaticConstructor">
+            <summary>Sets the shim of DeviceInfo.DeviceInfo()</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimScanAPIException">
+            <summary>Shim type of ScanAPIHelper.ScanAPIException</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimScanAPIException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimScanAPIException.#ctor(ScanAPIHelper.ScanAPIException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimScanAPIException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimScanAPIException.AllInstances.ErrorCodeGet">
+            <summary>Sets the shim of ScanAPIException.get_ErrorCode()</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimScanAPIException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimScanAPIException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimScanAPIException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimScanAPIException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimScanAPIException.ConstructorInt32">
+            <summary>Sets the shim of ScanAPIException.ScanAPIException(Int32 errorCode)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimScanAPIException.ConstructorInt32String">
+            <summary>Sets the shim of ScanAPIException.ScanAPIException(Int32 errorCode, String message)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimScanAPIException.ErrorCodeGet">
+            <summary>Sets the shim of ScanAPIException.get_ErrorCode()</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimVersion">
+            <summary>Shim type of ScanAPIHelper.Version</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimVersion.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimVersion.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimVersion.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimVersion.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimVersion.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimVersion.StaticConstructor">
+            <summary>Sets the shim of Version.Version()</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimVersionInfo">
+            <summary>Shim type of ScanAPIHelper.VersionInfo</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimVersionInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimVersionInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimVersionInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimVersionInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimVersionInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimVersionInfo.StaticConstructor">
+            <summary>Sets the shim of VersionInfo.VersionInfo()</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimWsqImageParameter">
+            <summary>Shim type of ScanAPIHelper.WsqImageParameter</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimWsqImageParameter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.ShimWsqImageParameter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimWsqImageParameter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.ShimWsqImageParameter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimWsqImageParameter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.ShimWsqImageParameter.StaticConstructor">
+            <summary>Sets the shim of WsqImageParameter.WsqImageParameter()</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.StubDevice">
+            <summary>Stub type of ScanAPIHelper.Device</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubDevice.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubDevice.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubDevice.Dispose(System.Boolean)">
+            <summary>Sets the stub of Device.Dispose(Boolean )</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubDevice.DisposeBoolean">
+            <summary>Sets the stub of Device.Dispose(Boolean )</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubDevice.InitializeStub">
+            <summary>Initializes a new instance of type StubDevice</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubDevice.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubDevice.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ScanAPIHelper.Fakes.StubScanAPIException">
+            <summary>Stub type of ScanAPIHelper.ScanAPIException</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubScanAPIException.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubScanAPIException.#ctor(System.Int32,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubScanAPIException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubScanAPIException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubScanAPIException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubScanAPIException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubScanAPIException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubScanAPIException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubScanAPIException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubScanAPIException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubScanAPIException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubScanAPIException.InitializeStub">
+            <summary>Initializes a new instance of type StubScanAPIException</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubScanAPIException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubScanAPIException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubScanAPIException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubScanAPIException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="P:ScanAPIHelper.Fakes.StubScanAPIException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:ScanAPIHelper.Fakes.StubScanAPIException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:ScanAPIHelper.Fakes.StubScanAPIException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+    </members>
+</doc>

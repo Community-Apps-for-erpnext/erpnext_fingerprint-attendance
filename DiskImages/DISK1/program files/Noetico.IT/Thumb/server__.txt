@@ -1,0 +1,4 @@
+serverip
+erpnext mysql database name
+mysql user
+user password

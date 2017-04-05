@@ -1,0 +1,17 @@
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\Thumb.exe.config
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\Thumb.exe.manifest
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\Thumb.application
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\Thumb.exe
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\Thumb.pdb
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\MySql.Data.dll
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\ScanAPIDemo.vshost.exe
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\ScanAPIHelper.dll
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\bin\x64\Debug\MySql.Data.xml
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\obj\x64\Debug\Thumb.csprojResolveAssemblyReference.cache
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\obj\x64\Debug\Thumb.Form1.resources
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\obj\x64\Debug\Thumb.Properties.Resources.resources
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\obj\x64\Debug\Thumb.csproj.GenerateResource.Cache
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\obj\x64\Debug\Thumb.exe.manifest
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\obj\x64\Debug\Thumb.application
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\obj\x64\Debug\Thumb.exe
+C:\Users\kent\documents\visual studio 2015\Projects\Thumb\Thumb\obj\x64\Debug\Thumb.pdb
